@@ -1,0 +1,278 @@
+/*header*/
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar-fixed-top{
+	background-color: rgba(255, 255, 255, 0.9 );
+	border: 0px;
+}
+.navbar-collapse .navbar-nav li a{
+	color: #000;
+}
+.navbar-collapse .navbar-nav li a:hover{
+	color:#ff5b01;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ff5b01;
+    background-color: transparent;
+}
+.navbar-right{
+	margin-right: 56px;
+}
+.navbar-header{
+	margin-bottom: 5px;
+}
+.navbar-brand img{
+	width:192px;
+	margin-left: 90px;
+}
+/*end of navbar*/
+
+
+/*section*/
+
+/*slider*/
+
+#bgslider-desc-wrapper {
+    bottom: 0;
+    height: 11em;
+    left: 10%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.hidden-xs p {
+    background-color: rgba(46,46,46,.7);
+    color: #fff;
+    font-size: 12px;
+    left: 17%;
+    padding: 10px;
+    position: absolute;
+    right: 20%;
+    top:-14.7em;
+    white-space: normal;
+    width: 35em;
+}
+.hidden-xs1 p{
+	background-color: rgba(255,122,48,.7);
+    color: #fff;
+    font-size: 30px;
+    left: 17%;
+    padding: 5px 12px;
+    position: absolute;
+    top: -9.5em
+}
+/*end of slider section*/
+
+/*what we do section*/
+
+
+.smartsolution-what-we-do h1{
+	text-align: center;
+}
+.smartsolution-what-we-do p{
+	text-align: center;
+	color: #777;
+}
+.smartsolution-we-do-services img{
+	margin-left: 48px;
+}
+.services h3{
+	font-size: 20px;
+}
+.services p {
+    position: relative;
+    height: 52px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    font-size: 13px;
+    color: #707070;
+}
+.services p:after {
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    height: 1.2em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+/*end of what we do*/
+
+
+/*3D philosophy*/
+.hello{
+   position: relative;
+   text-align: center;
+}
+.smartsolution-3D-philosophy{
+	position: absolute;
+	top: 180px;
+	color: white;
+	text-align: 
+}
+.section.bg{
+}
+.img-3d{
+	margin-left: 195px;
+}
+.designs{
+	margin-top: 60px;
+}
+/*end of 3D philosophy*/
+
+/*we have done*/
+.smartsolution-we-have-done h2{
+   text-align: center;
+}
+.smartsolution-we-have-done p{
+   text-align: center;
+   color: #777;
+}
+#smartsolution-work {
+	margin-top: 20px;
+	margin-bottom: 52px;
+}
+#smartsolution-work a{
+	text-decoration: none;
+	color: #777;
+	padding: 30px;
+	font-size: 15px;
+}
+.smartsolution-work a:hover{
+    color: #ff5b01;
+} 
+
+/*proud numbers*/
+.smartsolution-proud{
+	position: relative;
+}
+.smartsolution-numbers{
+	position: absolute;
+	top: 0px;
+	color: white;
+}
+.smartsolution-numbers h2{
+	margin-left: 415px;
+	margin-top: 110px;
+}
+.smartsolution-numbers p{
+	margin-left: 455px;
+}
+#section-we-are-proud-of-these-numbers{
+	background: rgba(255, 92, 1, 0.85) none repeat scroll 0 0;
+}
+#section-we-are-proud-of-these-numbers1{
+	background: rgba(68, 128, 164, 0.85) none repeat scroll 0 0;
+}
+#section-we-are-proud-of-these-numbers2{
+	background: rgba(255, 162, 0, 0.85) none repeat scroll 0 0;
+}
+.number-item{
+	text-align: center;
+    padding: 20px;
+}
+.number-item .text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.number-item .number {
+    display: block;
+    font-size: 40px;
+    font-weight: lighter;
+}
+.masked {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-bottom: 50px;
+    margin-left: 188px;
+    margin-top: 30px;
+}
+.smartsolution-who-are-we{
+	text-align: center;
+}
+.who-are-we p{
+    color: #777;
+}
+.who-are-we h3{
+    color: #777;
+    margin-left: 53px;
+}
+.who-are-we img{
+	margin-left: 89px;
+}
+.smartsolution-who-wants-to-work{
+	text-align: center;
+}
+.working-team{
+	margin-left: 224px;
+    margin-right: 217px;
+}
+
+/*footer*/
+.smartsolution-footer-nav{
+	position: relative;
+}
+.footer-nav{
+	position: absolute;
+	top: 0px;
+	margin-left: 245px;
+	margin-top: 50px;
+}
+.footer-nav h2{
+	margin-left: 342px;
+	margin-top: 40px;
+}
+.form-control{
+	border-radius: 0px;
+	border:2px solid black;
+	width: 453px;
+}
+.contact-info h3{
+    margin-left: 29px;
+}
+.msg{
+	border-radius: 0px;
+	padding: 10px;
+	background-color: #5ed9e7;
+	border:1px solid #5ed9e7 ;
+}
+.msg:hover{
+	background-color: #5ed9e7;
+	border:1px solid #5ed9e7 ;
+}
+.gone{
+	margin-top: 20px;
+}
+
+/*tab*/
+/* Style the buttons inside the tab */
+div.tab button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 18px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: transparent;
+    color: #777;
+}
+div.tab button.active {
+    color: #ff5b01;
+}
+div.tab button:hover{
+	color: 
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/*end of tab*/
